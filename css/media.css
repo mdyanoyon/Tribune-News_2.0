@@ -1,0 +1,128 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* ============= */
+    .alert{
+        display: none;
+    }
+    .l_img{
+        margin-left: 27%;
+        width: 50%;
+    }
+    .h_right_side{
+        display: none;
+    }
+    .home{
+        display: none;
+    }
+    .navbar{
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    #division{
+    top: 80px;
+    left: 47%;
+    }
+    .p_menubar ul li{
+    padding-left: 26px;
+    }
+
+    .right span{
+        display: none;
+    }
+    .c_hr{
+        width: 92.3%;
+        margin: auto;
+        margin-bottom: 4px;
+    }
+    .n_button{
+        border-radius: 0px;
+    }
+}
+/* Small devices (landscape phones, 576px and up)  */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .alert{
+        display: none;
+    }
+    .l_img{
+        margin-left: 27%;
+        width: 50%;
+    }
+    .home{
+        display: none;
+    }
+    .h_right_side{
+        display: none;
+    }
+    .navbar{
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    #division{
+        top: 82px;
+        left: 49%;
+       }
+    .p_menubar ul li{
+        padding-left: 27px;
+       }
+    .right span{
+        display: none;
+    }
+    .single_item1 img{
+       height: 90px !important;
+   }
+   .notice p{
+       font-size: 16px;
+   }
+  
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .alert{
+        display: none;
+    }
+    .l_img{
+        margin-left: 27%;
+        width: 50%;
+    }
+    .home{
+        display: none;
+    }
+    .h_right_side{
+        display: none;
+    }
+    .navbar{
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    #division{
+        top: 82px;
+        left: 49%;
+    }
+    .p_menubar ul li{
+        padding-left: 27px;
+    }
+    .right span{
+        display: none;
+    }
+    .single_item1 img{
+       height: 90px !important;
+   }
+   .notice p{
+       font-size: 16px;
+   }
+   
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+/* Extra Large devices ( Large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+/* Extra Extra large devices (Extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
